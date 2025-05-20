@@ -21,7 +21,7 @@ Chat for Chzzk
 
 ### chatChannelID 알아오는 방법
 - 예를 들어, https://chzzk.naver.com/769788af1e0d5fc7caeeb025504e62d8 채널주소가 이와 같다면?
-- https://api.chzzk.naver.com/polling/v2/channels/769788af1e0d5fc7caeeb025504e62d8/live-status 로 접속하면 chatChannelID 뒤의 값이 나옵니다.
+- https://api.chzzk.naver.com/polling/v2/channels/769788af1e0d5fc7caeeb025504e62d8/live-status 로 접속하면 chatChannelID 뒤의 값이 나옵니다. 중간의 값을 바꿔서 확인해 주세요.
 - 해당 값을 chzzk=N1n0-6 으로 셋팅 하면 됩니다.
 
 ### OBS 연동 방법
