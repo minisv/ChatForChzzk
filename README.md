@@ -16,7 +16,7 @@ Chat for Chzzk
 - 이 프로젝트는 [CC BY-NC 한글](https://creativecommons.org/licenses/by-nc/4.0/deed.ko), [CC BY-NC English](https://creativecommons.org/licenses/by-nc/4.0/) 를 따릅니다. 누구나 무료로 이용할 수 있지만, 상업적으로 사용해선 안됩니다.
 
 ### 사용 방법
-- https://minisv.github.io/ChatForChzzk/index.html?chzzk=769788af1e0d5fc7caeeb025504e62d8
+- https://minisv.github.io/ChatForChzzk/?chzzk=769788af1e0d5fc7caeeb025504e62d8
 - 위의 주소 chzzk= 뒤 부분에 여러분의 방송 chzzkChannelID 를 입력 합니다.
 - 예를 들어, https://chzzk.naver.com/769788af1e0d5fc7caeeb025504e62d8 채널주소가 이와 같다면 769788af1e0d5fc7caeeb025504e62d8 를 뒤에 입력해 주세요.
 
