@@ -1,7 +1,7 @@
 'use strict'
 
 import { addMessage } from "./forms.js";
-import { getChatChannelID, getParameterByName } from "./library.js";
+import { getParameterByName } from "./library.js";
 
 let socket;
 let isManualClose = false;
@@ -15,9 +15,7 @@ let connectWebSocket = () => {
   socket.addEventListener("open", async () => {
     addMessage("✅ 서버에 연결되었습니다.");
     
-    let channelID = getParameterByName("chzzk");
-    if (channelID === null || channelID === "") return;
-    let chatChannelID = await getChatChannelID(channelID);
+    let chatChannelID = getParameterByName("chzzk");
     if (chatChannelID === null || chatChannelID === "") return;
     let option =  { "ver": "2", "cmd": 100, "svcid": "game", "cid": `${chatChannelID}`, "bdy": { "devType":2001, "auth":"READ" }, "tid": 1 };
     socket.send(JSON.stringify(option));

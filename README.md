@@ -16,9 +16,22 @@ Chat for Chzzk
 - 이 프로젝트는 [CC BY-NC 한글](https://creativecommons.org/licenses/by-nc/4.0/deed.ko), [CC BY-NC English](https://creativecommons.org/licenses/by-nc/4.0/) 를 따릅니다. 누구나 무료로 이용할 수 있지만, 상업적으로 사용해선 안됩니다.
 
 ### 사용 방법
-- https://minisv.github.io/ChatForChzzk/?chzzk=769788af1e0d5fc7caeeb025504e62d8
+- https://minisv.github.io/ChatForChzzk/?chzzk=N1nO-6
 - 위의 주소 chzzk= 뒤 부분에 여러분의 방송 chzzkChannelID 를 입력 합니다.
-- 예를 들어, https://chzzk.naver.com/769788af1e0d5fc7caeeb025504e62d8 채널주소가 이와 같다면 769788af1e0d5fc7caeeb025504e62d8 를 뒤에 입력해 주세요.
+
+### chatChannelID 알아오는 방법
+- 예를 들어, https://chzzk.naver.com/769788af1e0d5fc7caeeb025504e62d8 채널주소가 이와 같다면?
+- https://api.chzzk.naver.com/polling/v2/channels/769788af1e0d5fc7caeeb025504e62d8/live-status 로 접속하면 chatChannelID 뒤의 값이 나옵니다.
+- 해당 값을 chzzk=N1n0-6 으로 셋팅 하면 됩니다.
+
+### OBS 연동 방법
+- OBS 소스 목록에서 아래 + 버튼을 누르고 "브라우저" 를 눌러서 추가해주세요.
+- 적당히 이름을 지어주고, URL 에 위의 chatChannelID 알아오는 방법을 통해 얻은 값을 https://minisv.github.io/ChatForChzzk/?chzzk= 뒤에 공백없이 붙여넣어주세요.
+- 적당히 너비와 높이를 주고 잘 나오는지 확인 하시면 됩니다.
+
+### 주의 사항
+- 채팅을 치지직으로부터 인증하여 연결한 것이 아니라 읽기전용으로 연결하는 것이라 채팅 입력이 되지 않습니다.
+- 19금 방송이 체크된 경우 데이터를 확인 할 수 없습니다. (19금 방송의 경우 채팅 채널 연결에 인증이 필수 입니다.)
 
 ### 와우봇 연계
 - 이 프로젝트는 와우봇 개발중 일부 프로그램을 공개형으로 전환한 것 입니다.
